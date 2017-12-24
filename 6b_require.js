@@ -1,3 +1,4 @@
+
 // Create some funcions
 var sayHello = function() {
     console.log('Hello !');
