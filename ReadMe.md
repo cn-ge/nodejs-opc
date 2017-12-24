@@ -2,6 +2,7 @@ nodejs-opc
 =====
 
 simple project using node.js
+nodejs is monothread
 
 [![Build Status](https://github.com/cn-ge/nodejs-opc)](https://github.com/cn-ge/nodejs-opc)
 
