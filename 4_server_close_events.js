@@ -2,7 +2,7 @@
 // You can charge an other library by using NPM command
 
 
-// Use libraries 'http', 'url' and 'querystring'
+// Use library 'http'
 var http = require('http');
 
 
