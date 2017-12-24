@@ -8,7 +8,9 @@ simple project using node.js
 installation
 -----
 
-`not ready yet`
+Import all necessary libraries in your nodejs installation folder
+Use the command 'node server.js' to start the first server
+Then, go and see the result on http://localhost:9000
 
 
 methods
