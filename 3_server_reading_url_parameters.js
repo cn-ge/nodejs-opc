@@ -13,8 +13,15 @@ var querystring = require('querystring');
 // with paramater res (reponse) 
 // building the response sent to the client
 var server = http.createServer(function(req, res) {
-    var params = querystring.parse(url.parse(req.url).query);
+	// Get the path in url
+    var url_path = url.parse(req.url).pathname;
+	// Get the params in url
+    var url_params = url.parse(req.url).query;
+	
+	// Put paramaters in an array of String value
+    var params = querystring.parse(url_params);
     res.writeHead(200, {"Content-Type": "text/plain"});
+	// Check parameters name and value
     if ('firstname' in params && 'lastname' in params) {
         res.write('Hello ' + params['firstname'] + ' ' + params['lastname']);
     }
