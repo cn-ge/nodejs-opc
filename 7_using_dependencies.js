@@ -1,5 +1,9 @@
+// Markdown is a type of script with another kind of annotation (vs balise in html or xml)
+// See ReadMe.md for example 
 // You can import 'markdown' library into nodejs installation folder
-// And use it like this 
+// npm install markdown -g
+
+
 var markdown = require('markdown').markdown;
 console.log(markdown.toHTML('Convert this text with **markdown** !'));
 
